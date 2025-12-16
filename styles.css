@@ -1,0 +1,38 @@
+   
+     *{
+        margin: 0;
+     }
+      .first-div {
+        color: rgb(255, 42, 0);
+        background: url(./img/car.jpeg);
+        background-repeat: no-repeat;
+        height: 56vh;
+        width: 36vw;
+      }
+      header{
+        height: 10vh;
+        background: yellow;
+      }
+      header nav ul{
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+        
+        
+      }
+
+      
+
+      nav ul li{
+        list-style: none;
+        margin: 10px;
+        
+        
+      }
+
+      li:hover{
+        color: red;
+        border:2px solid grey;
+        cursor: pointer;
+      }
+    
